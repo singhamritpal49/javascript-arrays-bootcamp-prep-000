@@ -26,5 +26,5 @@ return array
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift(array)
-  retu
+  return array
 }
