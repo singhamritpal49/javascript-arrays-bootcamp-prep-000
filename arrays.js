@@ -37,9 +37,9 @@ function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray() {
-  var iceCreams = ["chocolate", "vanilla", "raspberry"]
+  var array = ["chocolate", "vanilla", "raspberry"]
 
-iceCreams.pop()
+array.pop()
 
-return iceCreams  
+return array  
 }
