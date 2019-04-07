@@ -23,3 +23,9 @@ function destructivelyAddElementToEndOfArray(array, element) {
 array.push(element);
 return array
 }
+
+function destructivelyAddElementToBeginningOfArray(array) {
+  const array = [ "index"]
+  array.shift()
+  return array
+}
