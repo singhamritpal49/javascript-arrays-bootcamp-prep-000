@@ -34,6 +34,6 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  array.slice(-3)
+  array.slice(0)
   return array
 }
